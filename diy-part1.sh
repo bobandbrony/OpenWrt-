@@ -16,5 +16,3 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-# 确保正确的编译选项
-echo 'TARGET_CFLAGS += -march=24kc' >> package/feeds/small/dns2tcp/Makefile
